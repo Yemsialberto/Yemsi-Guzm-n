@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulaco Tatto - Estudio de Tatuajes Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menú de navegación fijo -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PULACO TATTO</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#reservas" class="nav-link">Reservas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">PULACO TATTO</h1>
+            <p class="hero-subtitle">"Cada cuerpo es un lienzo que trato de pintar."</p>
+            <a href="#reservas" class="cta-button">Reservar Cita</a>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería de Trabajos</h2>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="color">Color</button>
+                <button class="filter-btn" data-filter="blackwhite">Blanco y Negro</button>
+                <button class="filter-btn" data-filter="blackout">Blackout</button>
+                <button class="filter-btn" data-filter="tribal">Tribales</button>
+                <button class="filter-btn" data-filter="realismo">Realismo</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="color">
+                    <img src="https://images.unsplash.com/photo-1565058379802-bbe908e758f1?w=400&h=400&fit=crop" alt="Tatuaje a color">
+                    <div class="gallery-overlay">
+                        <h3>Tatuaje a Color</h3>
+                        <p>Diseño vibrante y detallado</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="blackwhite">
+                    <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=400&h=400&fit=crop" alt="Tatuaje blanco y negro">
+                    <div class="gallery-overlay">
+                        <h3>Blanco y Negro</h3>
+                        <p>Elegancia en cada trazo</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="blackout">
+                    <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop" alt="Tatuaje blackout">
+                    <div class="gallery-overlay">
+                        <h3>Blackout</h3>
+                        <p>Intensidad y fuerza</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="tribal">
+                    <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=400&fit=crop" alt="Tatuaje tribal">
+                    <div class="gallery-overlay">
+                        <h3>Tribales</h3>
+                        <p>Tradición y modernidad</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="realismo">
+                    <img src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop" alt="Tatuaje realista">
+                    <div class="gallery-overlay">
+                        <h3>Realismo</h3>
+                        <p>Arte que cobra vida</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="color">
+                    <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=400&h=400&fit=crop" alt="Tatuaje a color">
+                    <div class="gallery-overlay">
+                        <h3>Tatuaje a Color</h3>
+                        <p>Expresión única</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre el Artista</h2>
+                    <h3>Pulaco - Maestro del Tatuaje</h3>
+                    <p>Con más de 10 años de experiencia en el mundo del tatuaje, mi pasión comenzó como una forma de expresión personal y se ha convertido en mi forma de vida. Cada diseño que creo es único, pensado específicamente para la persona que lo llevará.</p>
+                    <p>Mi estilo se caracteriza por la precisión en cada línea, el cuidado en cada detalle y la búsqueda constante de la perfección. Desde realismo hasta diseños tribales, cada tatuaje es una obra de arte que cuenta una historia.</p>
+                    <p>Creo firmemente que cada cuerpo es un lienzo único, y mi misión es crear arte que no solo sea visualmente impactante, sino que también tenga un significado profundo para quien lo porta.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>1000+</h4>
+                            <p>Tatuajes Realizados</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Años de Experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Clientes Satisfechos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=500&h=600&fit=crop" alt="Pulaco tatuando">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios y Precios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Tatuajes a Color</h3>
+                    <p>Diseños vibrantes y detallados con la mejor calidad de tintas.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Pequeño (5x5cm)</span>
+                            <span>$80 - $120</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Mediano (10x10cm)</span>
+                            <span>$150 - $250</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Grande (15x15cm+)</span>
+                            <span>$300 - $500</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Blanco y Negro</h3>
+                    <p>Elegancia clásica con técnicas tradicionales y modernas.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Pequeño (5x5cm)</span>
+                            <span>$60 - $100</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Mediano (10x10cm)</span>
+                            <span>$120 - $200</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Grande (15x15cm+)</span>
+                            <span>$250 - $400</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <h3>Blackout</h3>
+                    <p>Tatuajes sólidos y impactantes con tinta negra pura.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Pequeño (5x5cm)</span>
+                            <span>$70 - $110</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Mediano (10x10cm)</span>
+                            <span>$140 - $220</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Grande (15x15cm+)</span>
+                            <span>$280 - $450</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Tribales</h3>
+                    <p>Diseños ancestrales con un toque contemporáneo.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Pequeño (5x5cm)</span>
+                            <span>$65 - $95</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Mediano (10x10cm)</span>
+                            <span>$130 - $180</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Grande (15x15cm+)</span>
+                            <span>$220 - $350</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Realismo</h3>
+                    <p>Tatuajes hiperrealistas que capturan cada detalle.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Pequeño (5x5cm)</span>
+                            <span>$100 - $150</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Mediano (10x10cm)</span>
+                            <span>$200 - $300</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Grande (15x15cm+)</span>
+                            <span>$400 - $600</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Diseño Personalizado</h3>
+                    <p>Creamos tu diseño único desde cero.</p>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>Consulta de diseño</span>
+                            <span>$50</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Diseño digital</span>
+                            <span>$80 - $200</span>
+                        </div>
+                        <div class="price-item">
+                            <span>Revisiones</span>
+                            <span>$30 c/u</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Reservas -->
+    <section id="reservas" class="booking">
+        <div class="container">
+            <h2 class="section-title">Reservar Cita</h2>
+            <div class="booking-content">
+                <div class="booking-info">
+                    <h3>¿Listo para tu nuevo tatuaje?</h3>
+                    <p>Completa el formulario y te contactaremos dentro de 24 horas para confirmar tu cita. Recuerda que requiero un depósito del 30% para confirmar la reserva.</p>
+                    <div class="booking-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Consulta gratuita</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Diseño personalizado</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Ambiente estéril y seguro</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Materiales de primera calidad</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="booking-form" id="booking-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="estilo">Estilo de tatuaje</label>
+                        <select id="estilo" name="estilo" required>
+                            <option value="">Selecciona un estilo</option>
+                            <option value="color">A Color</option>
+                            <option value="blackwhite">Blanco y Negro</option>
+                            <option value="blackout">Blackout</option>
+                            <option value="tribal">Tribal</option>
+                            <option value="realismo">Realismo</option>
+                            <option value="personalizado">Diseño Personalizado</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="zona">Zona del cuerpo</label>
+                        <select id="zona" name="zona" required>
+                            <option value="">Selecciona la zona</option>
+                            <option value="brazo">Brazo</option>
+                            <option value="pierna">Pierna</option>
+                            <option value="espalda">Espalda</option>
+                            <option value="pecho">Pecho</option>
+                            <option value="cuello">Cuello</option>
+                            <option value="mano">Mano</option>
+                            <option value="pie">Pie</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tamano">Tamaño aproximado</label>
+                        <select id="tamano" name="tamano" required>
+                            <option value="">Selecciona el tamaño</option>
+                            <option value="pequeno">Pequeño (5x5cm)</option>
+                            <option value="mediano">Mediano (10x10cm)</option>
+                            <option value="grande">Grande (15x15cm+)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="descripcion">Descripción del diseño</label>
+                        <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describe tu idea de tatuaje, colores preferidos, referencias, etc."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha">Fecha preferida</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto y Ubicación</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Calle Principal 123<br>Centro, Ciudad<br>CP 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@pulacotatto.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Horarios</h3>
+                            <p>Lun - Vie: 10:00 - 20:00<br>Sábado: 10:00 - 18:00<br>Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Mapa Interactivo</p>
+                        <small>Aquí iría el mapa de Google Maps</small>
+                    </div>
+                </div>
+            </div>
+            <div class="social-media">
+                <h3>Síguenos en Redes Sociales</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>@pulacotatto</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PULACO TATTO</h3>
+                    <p>"Cada cuerpo es un lienzo que trato de pintar."</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#reservas">Reservas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>+1 (555) 123-4567</p>
+                    <p>info@pulacotatto.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pulaco Tatto. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
